@@ -139,36 +139,4 @@ Then I'll add your language into PuppyGit in further version, after added, if ha
 I haven't use the default placeholder, because if it missed in the xml file, may cause app crashed, in my `strings.xml`, The strings like "ph_a3f241dc_NUMBER" are the placeholders, the last NUMBER is order, e.g. a string resource ```<str1>name: ph_a3f241dc_1, age: ph_a3f241dc_2</str1>```, will replaced when running, it maybe will show as: ```"name: abc, age: 123"```, if you have mistake with the order number, e.g.```<str1>name: ph_a3f241dc_2, age: ph_a3f241dc_1</str1>```, it may cause app show wrong text like ```"name: 123, age: abc"```
 
 ### I recommend
-1. use "…" as ellipsis sign, rather than "...", because the former actually is shorter, only 1 char
-2. don't delete the strings which need not translate, if you deleted, the origin english strings.xml will got a lot of err on the ide, so keep the english elements in your strings.xml even you don't need translate them.
-
-### How I update existed languages
-If I need add some simple words, I'll use AI translate to existed languages, if you found anything words wrong, you can fork my repo and update it, then send a pr.
-If I need add some complex and long sentence, I'll create an issue and notice the translators, then the translators can fork my repo and update the strings.xml of their language, then send a pr to me.
-
-#### Contributors username will display in the About screen of PuppyGit, if you don't want to your name presence in the list, you can send an email to me or create an issue to tell me. btw. you can find my email by click "Contact Author" in the About screen of PuppyGit
-
-
-
-## Comments in code
-this project has many chinese comments, and some comments are out-of-date or nonsense, I have no plan to clean them, but if you read the codes, and you wonder know some comments meaning, try translator or ask me is ok
-
-
-## Credits
-### Logo
-The PuppyGit logo designed by Bandeapart1964(myself)<br>
-The Git Logo in PuppyGit logo is created by Jason Long, is licensed under the Creative Commons Attribution 3.0 Unported License. (<a href=https://git-scm.com/downloads/logos>The Git Logo</a>)<br>
-
-### Libs
-The `libgit2.so` built from <a href=https://github.com/libgit2/libgit2/releases/tag/v1.9.1>libgit2 1.9.1</a>(<a href=https://raw.githubusercontent.com/libgit2/libgit2/main/COPYING>LICENSE</a>)<br>
-The `libssh2.so` built from <a href=https://github.com/libssh2/libssh2/releases/tag/libssh2-1.11.1>libssh2 1.11.1</a>(<a href=https://github.com/libssh2/libssh2/blob/master/COPYING>LICENSE</a>)<br>
-The `libgit24j.so`'s source code is edited from <a href=https://github.com/git24j/git24j>Git24j</a> and <a href=https://github.com/Frank997/git24j>A fork of Git24j</a>(<a href=https://raw.githubusercontent.com/git24j/git24j/master/LICENSE>LICENSE</a>)(I've sent pr after I made changes and tested)<br>
-The `libcrypto.so` and `libssl.so` built from <a href=https://github.com/openssl/openssl/releases/tag/openssl-3.5.0>openssl 3.5.0</a>(<a href=https://raw.githubusercontent.com/openssl/openssl/master/LICENSE.txt>LICENSE</a>)<br>
-The Editor of PuppyGit is modified from kaleidot725's <a href=https://github.com/kaleidot725/text-editor-compose>text-editor-compose</a>(<a href=https://raw.githubusercontent.com/kaleidot725/text-editor-compose/main/LICENSE>LICENSE</a>)
-
-### Other Files
-The Log class `MyLog` changed from: <a href=https://www.cnblogs.com/changyiqiang/p/11225350.html>changyiqiang's blog</a><br>
-The `MIMEType` related util classes copied from ZhangHai's <a href=https://github.com/zhanghai/MaterialFiles>Material Files</a>(<a href=https://github.com/zhanghai/MaterialFiles/blob/master/LICENSE>LICENSE</a>)<br>
-The `PermissionUtils` copied from <a href=https://github.com/NeoApplications/Neo-Backup/blob/main/src/main/java/com/machiav3lli/backup/utils/PermissionUtils.kt>Neo-Backup PermissionUtils class</a>(<a href=https://github.com/NeoApplications/Neo-Backup/blob/main/LICENSE.md>LICENSE</a>)<br>
-The files about syntax highlighting feature are picked from <a href=https://github.com/Rosemoe/sora-editor>Sora Editor</a>(<a href=https://github.com/Rosemoe/sora-editor/blob/main/LICENSE>LICENSE</a>)
-<clr>
+1. use "…" as ellipsis sign, rather than "...", because the former actually is sh
